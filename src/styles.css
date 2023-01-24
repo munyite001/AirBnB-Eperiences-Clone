@@ -16,7 +16,7 @@ body, #root {
 }
 
 .App {
-  max-width: 500px;
+  max-width: 550px;
   margin: 1rem;
   width: 80%;
   min-width: 350px;
@@ -186,5 +186,10 @@ body, #root {
 
   .experiences-section {
     flex-direction: column;
+  }
+
+  .App {
+    max-width: 80%;
+    margin: 1rem auto;
   }
 }
